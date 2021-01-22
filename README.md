@@ -8,30 +8,30 @@ Although DMI is an open source project, it is affixed as an invention of Dewan M
 
 ## Example code
 To output a line of text/string :
-```
+```python
 display TEXT
 ```
-```
+```python
 display "Welcome to DMI programming!"
 ```
 To accept input and store it as a variable :
-```
+```python
 input "TEXT_PROMPT"
 store input as VARIABLE_NAME:VARIABLE_TYPE
 ```
-```
+```python
 input "Enter your name:"
 store input as username:string
 ```
 To declare conditionals :
-```
+```python
 if VARIABLE_NAME REQUIREMENT,
     IF_TRUE_ACTION_GOES_HERE
 orif VARIABLE_NAME REQUIREMENT,
     ELIF_TRUE_ACTION_GOES_HERE
 orelse IF_FALSE_ACTION_GOES_HERE
 ```
-```
+```python
 if username = "Mukto",
     display "Welcome, sir!"
 orelse display "Welcome, guest!"
