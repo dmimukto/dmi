@@ -11,18 +11,18 @@ To output a line of text/string :
 ```
 display TEXT
 ```
-`
+```
 display "Welcome to DMI programming!"
-`
+```
 To accept input and store it as a variable :
 ```
 input "TEXT_PROMPT"
 store input as VARIABLE_NAME:VARIABLE_TYPE
 ```
-`
+```
 input "Enter your name:"
 store input as username:string
-`
+```
 To declare conditionals :
 ```
 if VARIABLE_NAME REQUIREMENT,
@@ -31,8 +31,8 @@ orif VARIABLE_NAME REQUIREMENT,
     ELIF_TRUE_ACTION_GOES_HERE
 orelse IF_FALSE_ACTION_GOES_HERE
 ```
-`
+```
 if username = "Mukto",
     display "Welcome, sir!"
 orelse display "Welcome, guest!"
-`
+```
